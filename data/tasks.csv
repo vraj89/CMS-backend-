@@ -1,0 +1,3 @@
+id,project_id,title,description,assigned_to,assigned_role,status,priority,due_date,created_by,created_at
+cccccccc-0000-4000-8000-000000000001,bbbbbbbb-0000-4000-8000-000000000001,Write homepage hero copy,"Headline, subheadline and two CTA variants for the new Acme homepage.",44444444-4444-4444-8444-444444444444,content_writer,in_progress,high,2026-05-20,33333333-3333-4333-8333-333333333333,2026-05-03T09:00:00Z
+cccccccc-0000-4000-8000-000000000002,bbbbbbbb-0000-4000-8000-000000000001,Cut 60s brand video,Edit the raw brand footage into a 60 second cut with captions and music bed.,55555555-5555-4555-8555-555555555555,video_editor,pending,medium,2026-05-26,33333333-3333-4333-8333-333333333333,2026-05-03T09:10:00Z

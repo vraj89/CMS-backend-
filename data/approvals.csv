@@ -1,0 +1,2 @@
+id,entity_type,entity_id,project_id,approved_by,role,status,comments,created_at
+ffffffff-0000-4000-8000-000000000001,media,eeeeeeee-0000-4000-8000-000000000001,bbbbbbbb-0000-4000-8000-000000000001,66666666-6666-4666-8666-666666666666,client,pending,Awaiting client review.,2026-05-08T15:30:00Z

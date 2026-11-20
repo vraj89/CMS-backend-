@@ -1,0 +1,7 @@
+id,project_id,task_id,title,body,version,status,created_by,created_at
+dddddddd-0000-4000-8000-000000000001,bbbbbbbb-0000-4000-8000-000000000001,cccccccc-0000-4000-8000-000000000001,Homepage hero copy — draft,"Shop smarter with Acme. Curated essentials, delivered in 48 hours.
+
+Draft notes: keep the tone warm and confident, avoid discount language.",1,draft,44444444-4444-4444-8444-444444444444,2026-05-06T12:00:00Z
+dddddddd-0000-4000-8000-000000000002,bbbbbbbb-0000-4000-8000-000000000001,cccccccc-0000-4000-8000-000000000001,About page story,"Acme started in a garage in 2016 with one simple promise: better everyday products without the markup.
+
+This version is with the client for feedback after the first round of comments.",2,revision_requested,44444444-4444-4444-8444-444444444444,2026-05-05T10:00:00Z

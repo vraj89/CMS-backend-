@@ -1,0 +1,3 @@
+id,user_id,title,message,type,is_read,created_at
+13333333-0000-4000-8000-000000000001,44444444-4444-4444-8444-444444444444,New task assigned,"Kalpesh Jadav assigned you ""Write homepage hero copy"" on Acme Website Redesign.",task,false,2026-05-03T09:00:00Z
+13333333-0000-4000-8000-000000000002,66666666-6666-4666-8666-666666666666,Item ready for review,"Aarav Patel submitted ""Brand video — 60s cut"" for your review.",approval,false,2026-05-08T15:30:00Z
