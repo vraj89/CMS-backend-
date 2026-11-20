@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: prelytix-cms-api
+    name: vraj-prelytix-cms-api
     runtime: node
     rootDir: .
     buildCommand: npm install
