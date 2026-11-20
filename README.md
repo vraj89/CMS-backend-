@@ -2,6 +2,8 @@
 
 Express + JWT API for the Prelytix CMS platform. Client onboarding, project delivery, versioned content, client approvals and revisions, milestone payments, notifications and audit logging. The datastore is 11 CSV files in `data/` — no database server needed.
 
+> Full platform documentation (architecture, role matrix, deployment) is in [PROJECT.md](./PROJECT.md).
+
 ## Run locally
 
 ```bash
