@@ -21,16 +21,29 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 const allowedOrigins = [
-  process.env.FRONTEND_URL,
+  ...(process.env.FRONTEND_URL || '')
+    .split(',')
+    .map((origin) => origin.trim())
+    .filter(Boolean),
   'http://localhost:5173',
   'http://localhost:4173',
   'http://127.0.0.1:5173',
-].filter(Boolean);
+];
+
+// Vercel-hosted frontends (production alias + preview deployments) are always allowed.
+function isAllowedOrigin(origin) {
+  if (allowedOrigins.includes(origin)) return true;
+  try {
+    return /(^|\.)vercel\.app$/.test(new URL(origin).hostname);
+  } catch {
+    return false;
+  }
+}
 
 app.use(
   cors({
     origin(origin, callback) {
-      if (!origin || allowedOrigins.includes(origin)) return callback(null, true);
+      if (!origin || isAllowedOrigin(origin)) return callback(null, true);
       return callback(null, false);
     },
     credentials: true,
